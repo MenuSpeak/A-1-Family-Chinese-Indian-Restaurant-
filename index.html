@@ -1198,9 +1198,16 @@
 
    <div class="tabs-scroll">
 <button class="tab active" data-cat="all">🍽️ All Items</button>
-<button class="tab" data-cat="बिरयानी">🍚 Biryani Special</button>
-<button class="tab" data-cat="स्टार्टर">🍗 Starters</button>
-              </div>  
+<button class="tab" data-cat="A 1 Special Item">🌟 A1 Special Items</button>
+<button class="tab" data-cat="Non-Veg Soup">🥣 Non-Veg Soup</button>
+<button class="tab" data-cat="Non-Veg Noodles">🍝 Non-Veg Noodles</button>
+<button class="tab" data-cat="Non-Veg Rice">🍛 Non-Veg Rice</button>
+<button class="tab" data-cat="Egg Special">🥚 Egg Special</button>
+<button class="tab" data-cat="Veg Starter">🥗 Veg Starters</button>
+<button class="tab" data-cat="Veg Soup">🍵 Veg Soup</button>
+<button class="tab" data-cat="Veg Noodles">🍜 Veg Noodles</button>
+<button class="tab" data-cat="Veg Rice">🍚 Veg Rice</button>
+                 </div>  
                 </div>
             </div>
 
@@ -1345,8 +1352,131 @@
         // Menu Data - FIXED VERSION
         const data = [
 
-
-
+  {"id": 1, "cat": "A 1 Special Item", "name": "Chicken 65 (Full) | चिकन ६५ (फुल)", "price": "200/-", "desc": "Spicy and deep-fried chicken appetizer", "tags": ["NonVeg", "Special"], "img": "img/chicken_65.jpeg"},
+  {"id": 2, "cat": "A 1 Special Item", "name": "Chicken Crispy (Full) | चिकन क्रिस्पी (फुल)", "price": "200/-", "desc": "Extra crunchy fried chicken tossed in sauces", "tags": ["NonVeg", "Special"], "img": "img/chicken_crispy.jpeg"},
+  {"id": 3, "cat": "A 1 Special Item", "name": "Chicken Roll (Full) | चिकन रोल (फुल)", "price": "200/-", "desc": "Delicious chicken filling wrapped in a roll", "tags": ["NonVeg", "Special"], "img": "img/chicken_roll.jpeg"},
+  {"id": 4, "cat": "A 1 Special Item", "name": "Bhurji Double (Full) | भुर्जी डबल (फुल)", "price": "70/-", "desc": "Scrambled eggs with two eggs and spices", "tags": ["NonVeg", "Egg"], "img": "img/bhurji_double.jpeg"},
+  {"id": 5, "cat": "A 1 Special Item", "name": "Omlet Double (Full) | ऑम्लेट डबल (फुल)", "price": "50/-", "desc": "Fluffy double egg omelette", "tags": ["NonVeg", "Egg"], "img": "img/omlet_double.jpeg"},
+  {"id": 6, "cat": "A 1 Special Item", "name": "Chicken Lollypop Dry (Half) | चिकन लॉलीपॉप ड्राय (हाफ)", "price": "130/-", "desc": "Fried chicken lollipops without gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_lollypop_dry.jpeg"},
+  {"id": 7, "cat": "A 1 Special Item", "name": "Chicken Lollypop Dry (Full) | चिकन लॉलीपॉप ड्राय (फुल)", "price": "190/-", "desc": "Fried chicken lollipops without gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_lollypop_dry.jpeg"},
+  {"id": 8, "cat": "A 1 Special Item", "name": "Chicken Lollypop Masala (Half) | चिकन लॉलीपॉप मसाला (हाफ)", "price": "150/-", "desc": "Chicken lollipops tossed in spicy masala", "tags": ["NonVeg", "Starter"], "img": "img/chicken_lollypop_masala.jpeg"},
+  {"id": 9, "cat": "A 1 Special Item", "name": "Chicken Lollypop Masala (Full) | चिकन लॉलीपॉप मसाला (फुल)", "price": "210/-", "desc": "Chicken lollipops tossed in spicy masala", "tags": ["NonVeg", "Starter"], "img": "img/chicken_lollypop_masala.jpeg"},
+  {"id": 10, "cat": "A 1 Special Item", "name": "Chicken Lollypop Gravy (Half) | चिकन लॉलीपॉप ग्रेव्ही (हाफ)", "price": "150/-", "desc": "Chicken lollipops in thick chinese gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_lollypop_gravy.jpeg"},
+  {"id": 11, "cat": "A 1 Special Item", "name": "Chicken Lollypop Gravy (Full) | चिकन लॉलीपॉप ग्रेव्ही (फुल)", "price": "210/-", "desc": "Chicken lollipops in thick chinese gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_lollypop_gravy.jpeg"},
+  {"id": 12, "cat": "A 1 Special Item", "name": "Chicken Chilly Dry (Half) | चिकन चिली ड्राय (हाफ)", "price": "130/-", "desc": "Classic chicken chilly without gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_chilly_dry.jpeg"},
+  {"id": 13, "cat": "A 1 Special Item", "name": "Chicken Chilly Dry (Full) | चिकन चिली ड्राय (फुल)", "price": "190/-", "desc": "Classic chicken chilly without gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_chilly_dry.jpeg"},
+  {"id": 14, "cat": "A 1 Special Item", "name": "Chicken Chilly Gravy (Half) | चिकन चिली ग्रेव्ही (हाफ)", "price": "140/-", "desc": "Spicy chicken chilly with gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_chilly_gravy.jpeg"},
+  {"id": 15, "cat": "A 1 Special Item", "name": "Chicken Chilly Gravy (Full) | चिकन चिली ग्रेव्ही (फुल)", "price": "200/-", "desc": "Spicy chicken chilly with gravy", "tags": ["NonVeg", "Starter"], "img": "img/chicken_chilly_gravy.jpeg"},
+  {"id": 16, "cat": "A 1 Special Item", "name": "Chicken Manchurian Dry (Half) | चिकन मंचूरियन ड्राय (हाफ)", "price": "130/-", "desc": "Chicken manchurian balls dry", "tags": ["NonVeg", "Starter"], "img": "img/chi_manchurian_dry.jpeg"},
+  {"id": 17, "cat": "A 1 Special Item", "name": "Chicken Manchurian Dry (Full) | चिकन मंचूरियन ड्राय (फुल)", "price": "190/-", "desc": "Chicken manchurian balls dry", "tags": ["NonVeg", "Starter"], "img": "img/chi_manchurian_dry.jpeg"},
+  {"id": 18, "cat": "A 1 Special Item", "name": "Chicken Manchurian Gravy (Half) | चिकन मंचूरियन ग्रेव्ही (हाफ)", "price": "140/-", "desc": "Chicken manchurian balls in gravy", "tags": ["NonVeg", "Starter"], "img": "img/chi_manchurian_gravy.jpeg"},
+  {"id": 19, "cat": "A 1 Special Item", "name": "Chicken Manchurian Gravy (Full) | चिकन मंचूरियन ग्रेव्ही (फुल)", "price": "200/-", "desc": "Chicken manchurian balls in gravy", "tags": ["NonVeg", "Starter"], "img": "img/chi_manchurian_gravy.jpeg"},
+  {"id": 20, "cat": "A 1 Special Item", "name": "Chicken Bhel (Half) | चिकन भेळ (हाफ)", "price": "100/-", "desc": "Crispy noodles mixed with chicken and sauce", "tags": ["NonVeg", "Snacks"], "img": "img/chicken_bhel.jpeg"},
+  {"id": 21, "cat": "A 1 Special Item", "name": "Chicken Bhel (Full) | चिकन भेळ (फुल)", "price": "160/-", "desc": "Crispy noodles mixed with chicken and sauce", "tags": ["NonVeg", "Snacks"], "img": "img/chicken_bhel.jpeg"},
+  
+  {"id": 22, "cat": "Non-Veg Soup", "name": "Chicken Soup (Half) | चिकन सूप (हाफ)", "price": "50/-", "desc": "Hot chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_soup.jpeg"},
+  {"id": 23, "cat": "Non-Veg Soup", "name": "Chicken Soup (Full) | चिकन सूप (फुल)", "price": "90/-", "desc": "Hot chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_soup.jpeg"},
+  {"id": 24, "cat": "Non-Veg Soup", "name": "Chicken Manchaow Soup (Half) | चिकन मंचाव सूप (हाफ)", "price": "50/-", "desc": "Chicken manchaow soup with fried noodles", "tags": ["NonVeg", "Soup"], "img": "img/chi_manchaow_soup.jpeg"},
+  {"id": 25, "cat": "Non-Veg Soup", "name": "Chicken Manchaow Soup (Full) | चिकन मंचाव सूप (फुल)", "price": "90/-", "desc": "Chicken manchaow soup with fried noodles", "tags": ["NonVeg", "Soup"], "img": "img/chi_manchaow_soup.jpeg"},
+  {"id": 26, "cat": "Non-Veg Soup", "name": "Hot & Sour Soup (Half) | हॉट अँड सावर सूप (हाफ)", "price": "50/-", "desc": "Spicy and tangy chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_hot_sour_soup.jpeg"},
+  {"id": 27, "cat": "Non-Veg Soup", "name": "Hot & Sour Soup (Full) | हॉट अँड सावर सूप (फुल)", "price": "90/-", "desc": "Spicy and tangy chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_hot_sour_soup.jpeg"},
+  {"id": 28, "cat": "Non-Veg Soup", "name": "Clear Soup (Half) | क्लिअर सूप (हाफ)", "price": "70/-", "desc": "Clear chicken broth with mild spices", "tags": ["NonVeg", "Soup"], "img": "img/chi_clear_soup.jpeg"},
+  {"id": 29, "cat": "Non-Veg Soup", "name": "Clear Soup (Full) | क्लिअर सूप (फुल)", "price": "110/-", "desc": "Clear chicken broth with mild spices", "tags": ["NonVeg", "Soup"], "img": "img/chi_clear_soup.jpeg"},
+  {"id": 30, "cat": "Non-Veg Soup", "name": "Special Soup (Half) | स्पेशल सूप (हाफ)", "price": "70/-", "desc": "A1 Chef's special chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_special_soup.jpeg"},
+  {"id": 31, "cat": "Non-Veg Soup", "name": "Special Soup (Full) | स्पेशल सूप (फुल)", "price": "110/-", "desc": "A1 Chef's special chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_special_soup.jpeg"},
+  {"id": 32, "cat": "Non-Veg Soup", "name": "Chicken Noodles Soup (Half) | चिकन नूडल्स सूप (हाफ)", "price": "60/-", "desc": "Soup with chicken and noodles", "tags": ["NonVeg", "Soup"], "img": "img/chi_noodles_soup.jpeg"},
+  {"id": 33, "cat": "Non-Veg Soup", "name": "Chicken Noodles Soup (Full) | चिकन नूडल्स सूप (फुल)", "price": "100/-", "desc": "Soup with chicken and noodles", "tags": ["NonVeg", "Soup"], "img": "img/chi_noodles_soup.jpeg"},
+  {"id": 34, "cat": "Non-Veg Soup", "name": "Tomato Soup (Half) | टोमॅटो सूप (हाफ)", "price": "60/-", "desc": "Creamy tomato soup with chicken twist", "tags": ["NonVeg", "Soup"], "img": "img/chi_tomato_soup.jpeg"},
+  {"id": 35, "cat": "Non-Veg Soup", "name": "Tomato Soup (Full) | टोमॅटो सूप (फुल)", "price": "100/-", "desc": "Creamy tomato soup with chicken twist", "tags": ["NonVeg", "Soup"], "img": "img/chi_tomato_soup.jpeg"},
+  {"id": 36, "cat": "Non-Veg Soup", "name": "Chicken Long Fong (Half) | चिकन लॉंग फोंग (हाफ)", "price": "60/-", "desc": "Traditional Long Fong style chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_long_fong.jpeg"},
+  {"id": 37, "cat": "Non-Veg Soup", "name": "Chicken Long Fong (Full) | चिकन लॉंग फोंग (फुल)", "price": "100/-", "desc": "Traditional Long Fong style chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_long_fong.jpeg"},
+  {"id": 38, "cat": "Non-Veg Soup", "name": "Chicken Schezwan Soup (Half) | चिकन शेजवान सूप (हाफ)", "price": "60/-", "desc": "Spicy schezwan based chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_schezwan_soup.jpeg"},
+  {"id": 39, "cat": "Non-Veg Soup", "name": "Chicken Schezwan Soup (Full) | चिकन शेजवान सूप (फुल)", "price": "100/-", "desc": "Spicy schezwan based chicken soup", "tags": ["NonVeg", "Soup"], "img": "img/chi_schezwan_soup.jpeg"},
+  
+  {"id": 40, "cat": "Non-Veg Noodles", "name": "Chicken Noodles (Half) | चिकन नूडल्स (हाफ)", "price": "100/-", "desc": "Stir-fried noodles with chicken", "tags": ["NonVeg", "Noodles"], "img": "img/chi_noodles.jpeg"},
+  {"id": 41, "cat": "Non-Veg Noodles", "name": "Chicken Noodles (Full) | चिकन नूडल्स (फुल)", "price": "160/-", "desc": "Stir-fried noodles with chicken", "tags": ["NonVeg", "Noodles"], "img": "img/chi_noodles.jpeg"},
+  {"id": 42, "cat": "Non-Veg Noodles", "name": "Chicken Schezwan Noodles (Half) | चिकन शेजवान नूडल्स (हाफ)", "price": "110/-", "desc": "Spicy schezwan noodles with chicken", "tags": ["NonVeg", "Noodles"], "img": "img/chi_schezwan_noodles.jpeg"},
+  {"id": 43, "cat": "Non-Veg Noodles", "name": "Chicken Schezwan Noodles (Full) | चिकन शेजवान नूडल्स (फुल)", "price": "170/-", "desc": "Spicy schezwan noodles with chicken", "tags": ["NonVeg", "Noodles"], "img": "img/chi_schezwan_noodles.jpeg"},
+  {"id": 44, "cat": "Non-Veg Noodles", "name": "Chicken Manchurian Noodles (Half) | चिकन मंचूरियन नूडल्स (हाफ)", "price": "130/-", "desc": "Noodles with manchurian gravy and chicken", "tags": ["NonVeg", "Noodles"], "img": "img/chi_manchu_noodles.jpeg"},
+  {"id": 45, "cat": "Non-Veg Noodles", "name": "Chicken Manchurian Noodles (Full) | चिकन मंचूरियन नूडल्स (फुल)", "price": "180/-", "desc": "Noodles with manchurian gravy and chicken", "tags": ["NonVeg", "Noodles"], "img": "img/chi_manchu_noodles.jpeg"},
+  {"id": 46, "cat": "Non-Veg Noodles", "name": "Chicken Triple Noodles (Half) | चिकन ट्रिपल नूडल्स (हाफ)", "price": "140/-", "desc": "Triple layer of noodles, rice and gravy", "tags": ["NonVeg", "Special"], "img": "img/chi_triple_noodles.jpeg"},
+  {"id": 47, "cat": "Non-Veg Noodles", "name": "Chicken Triple Noodles (Full) | चिकन ट्रिपल नूडल्स (फुल)", "price": "190/-", "desc": "Triple layer of noodles, rice and gravy", "tags": ["NonVeg", "Special"], "img": "img/chi_triple_noodles.jpeg"},
+  {"id": 48, "cat": "Non-Veg Noodles", "name": "Chicken Hong Kong Noodles (Full) | चिकन हाँगकाँग नूडल्स (फुल)", "price": "180/-", "desc": "Hong Kong style stir-fried noodles", "tags": ["NonVeg", "Noodles"], "img": "img/chi_hong_kong_noodles.jpeg"},
+  {"id": 49, "cat": "Non-Veg Noodles", "name": "Chicken Singapore Noodles (Full) | चिकन सिंगापूर नूडल्स (फुल)", "price": "180/-", "desc": "Singapore style noodles with yellow curry touch", "tags": ["NonVeg", "Noodles"], "img": "img/chi_singapore_noodles.jpeg"},
+  
+  {"id": 50, "cat": "Non-Veg Rice", "name": "Chicken Fried Rice (Half) | चिकन फ्राईड राईस (हाफ)", "price": "100/-", "desc": "Classic chicken fried rice", "tags": ["NonVeg", "Rice"], "img": "img/chi_fried_rice.jpeg"},
+  {"id": 51, "cat": "Non-Veg Rice", "name": "Chicken Fried Rice (Full) | चिकन फ्राईड राईस (फुल)", "price": "160/-", "desc": "Classic chicken fried rice", "tags": ["NonVeg", "Rice"], "img": "img/chi_fried_rice.jpeg"},
+  {"id": 52, "cat": "Non-Veg Rice", "name": "Chicken Schezwan Rice (Half) | चिकन शेजवान राईस (हाफ)", "price": "110/-", "desc": "Spicy chicken rice in schezwan sauce", "tags": ["NonVeg", "Rice"], "img": "img/chi_schezwan_rice.jpeg"},
+  {"id": 53, "cat": "Non-Veg Rice", "name": "Chicken Schezwan Rice (Full) | चिकन शेजवान राईस (फुल)", "price": "170/-", "desc": "Spicy chicken rice in schezwan sauce", "tags": ["NonVeg", "Rice"], "img": "img/chi_schezwan_rice.jpeg"},
+  {"id": 54, "cat": "Non-Veg Rice", "name": "Chicken Combination Rice (Half) | चिकन कॉम्बिनेशन राईस (हाफ)", "price": "110/-", "desc": "Combination of fried rice and noodles", "tags": ["NonVeg", "Rice"], "img": "img/chi_combination_rice.jpeg"},
+  {"id": 55, "cat": "Non-Veg Rice", "name": "Chicken Combination Rice (Full) | चिकन कॉम्बिनेशन राईस (फुल)", "price": "170/-", "desc": "Combination of fried rice and noodles", "tags": ["NonVeg", "Rice"], "img": "img/chi_combination_rice.jpeg"},
+  {"id": 56, "cat": "Non-Veg Rice", "name": "Chicken Manchurian Rice (Half) | चिकन मंचूरियन राईस (हाफ)", "price": "130/-", "desc": "Rice served with chicken manchurian balls", "tags": ["NonVeg", "Rice"], "img": "img/chi_manchu_rice.jpeg"},
+  {"id": 57, "cat": "Non-Veg Rice", "name": "Chicken Manchurian Rice (Full) | चिकन मंचूरियन राईस (फुल)", "price": "180/-", "desc": "Rice served with chicken manchurian balls", "tags": ["NonVeg", "Rice"], "img": "img/chi_manchu_rice.jpeg"},
+  {"id": 58, "cat": "Non-Veg Rice", "name": "Chicken Triple Rice (Half) | चिकन ट्रिपल राईस (हाफ)", "price": "140/-", "desc": "Fried rice with noodles and chicken gravy", "tags": ["NonVeg", "Special"], "img": "img/chi_triple_rice.jpeg"},
+  {"id": 59, "cat": "Non-Veg Rice", "name": "Chicken Triple Rice (Full) | चिकन ट्रिपल राईस (फुल)", "price": "190/-", "desc": "Fried rice with noodles and chicken gravy", "tags": ["NonVeg", "Special"], "img": "img/chi_triple_rice.jpeg"},
+  {"id": 60, "cat": "Non-Veg Rice", "name": "Chicken Singapore Rice (Full) | चिकन सिंगापूर राईस (फुल)", "price": "180/-", "desc": "Singapore style aromatic chicken rice", "tags": ["NonVeg", "Rice"], "img": "img/chi_singapore_rice.jpeg"},
+  {"id": 61, "cat": "Non-Veg Rice", "name": "Chicken Thousand Rice (Full) | चिकन थाउजंड राईस (फुल)", "price": "200/-", "desc": "Special thousand spice chicken rice", "tags": ["NonVeg", "Rice"], "img": "img/chi_thousand_rice.jpeg"},
+  
+  {"id": 62, "cat": "Egg Special", "name": "Egg Rice (Half) | अंडा राईस (हाफ)", "price": "90/-", "desc": "Fried rice with eggs", "tags": ["NonVeg", "Egg"], "img": "img/egg_rice.jpeg"},
+  {"id": 63, "cat": "Egg Special", "name": "Egg Rice (Full) | अंडा राईस (फुल)", "price": "150/-", "desc": "Fried rice with eggs", "tags": ["NonVeg", "Egg"], "img": "img/egg_rice.jpeg"},
+  {"id": 64, "cat": "Egg Special", "name": "Egg Schezwan Rice (Half) | अंडा शेजवान राईस (हाफ)", "price": "100/-", "desc": "Spicy schezwan rice with eggs", "tags": ["NonVeg", "Egg"], "img": "img/egg_schezwan_rice.jpeg"},
+  {"id": 65, "cat": "Egg Special", "name": "Egg Schezwan Rice (Full) | अंडा शेजवान राईस (फुल)", "price": "160/-", "desc": "Spicy schezwan rice with eggs", "tags": ["NonVeg", "Egg"], "img": "img/egg_schezwan_rice.jpeg"},
+  {"id": 66, "cat": "Egg Special", "name": "Egg Combination Rice (Half) | अंडा कॉम्बिनेशन राईस (हाफ)", "price": "100/-", "desc": "Mix of rice and noodles with egg", "tags": ["NonVeg", "Egg"], "img": "img/egg_combination_rice.jpeg"},
+  {"id": 67, "cat": "Egg Special", "name": "Egg Combination Rice (Full) | अंडा कॉम्बिनेशन राईस (फुल)", "price": "150/-", "desc": "Mix of rice and noodles with egg", "tags": ["NonVeg", "Egg"], "img": "img/egg_combination_rice.jpeg"},
+  {"id": 68, "cat": "Egg Special", "name": "Egg Manchurian Rice (Half) | अंडा मंचूरियन राईस (हाफ)", "price": "130/-", "desc": "Egg rice with manchurian sauce", "tags": ["NonVeg", "Egg"], "img": "img/egg_manchurian_rice.jpeg"},
+  {"id": 69, "cat": "Egg Special", "name": "Egg Manchurian Rice (Full) | अंडा मंचूरियन राईस (फुल)", "price": "180/-", "desc": "Egg rice with manchurian sauce", "tags": ["NonVeg", "Egg"], "img": "img/egg_manchurian_rice.jpeg"},
+  {"id": 70, "cat": "Egg Special", "name": "Egg Triple Rice (Half) | अंडा ट्रिपल राईस (हाफ)", "price": "130/-", "desc": "Triple rice with eggs and gravy", "tags": ["NonVeg", "Egg"], "img": "img/egg_triple_rice.jpeg"},
+  {"id": 71, "cat": "Egg Special", "name": "Egg Triple Rice (Full) | अंडा ट्रिपल राईस (फुल)", "price": "180/-", "desc": "Triple rice with eggs and gravy", "tags": ["NonVeg", "Egg"], "img": "img/egg_triple_rice.jpeg"},
+  
+  {"id": 72, "cat": "Veg Rice", "name": "Veg Fried Rice (Half) | व्हेज फ्राईड राईस (हाफ)", "price": "90/-", "desc": "Fresh vegetable fried rice", "tags": ["Veg", "Rice"], "img": "img/veg_fried_rice.jpeg"},
+  {"id": 73, "cat": "Veg Rice", "name": "Veg Fried Rice (Full) | व्हेज फ्राईड राईस (फुल)", "price": "150/-", "desc": "Fresh vegetable fried rice", "tags": ["Veg", "Rice"], "img": "img/veg_fried_rice.jpeg"},
+  {"id": 74, "cat": "Veg Rice", "name": "Veg Schezwan Rice (Half) | व्हेज शेजवान राईस (हाफ)", "price": "100/-", "desc": "Spicy veg schezwan rice", "tags": ["Veg", "Rice"], "img": "img/veg_schezwan_rice.jpeg"},
+  {"id": 75, "cat": "Veg Rice", "name": "Veg Schezwan Rice (Full) | व्हेज शेजवान राईस (फुल)", "price": "160/-", "desc": "Spicy veg schezwan rice", "tags": ["Veg", "Rice"], "img": "img/veg_schezwan_rice.jpeg"},
+  {"id": 76, "cat": "Veg Rice", "name": "Veg Combination Rice (Half) | व्हेज कॉम्बिनेशन राईस (हाफ)", "price": "100/-", "desc": "Combination of veg rice and noodles", "tags": ["Veg", "Rice"], "img": "img/veg_combination_rice.jpeg"},
+  {"id": 77, "cat": "Veg Rice", "name": "Veg Combination Rice (Full) | व्हेज कॉम्बिनेशन राईस (फुल)", "price": "160/-", "desc": "Combination of veg rice and noodles", "tags": ["Veg", "Rice"], "img": "img/veg_combination_rice.jpeg"},
+  {"id": 78, "cat": "Veg Rice", "name": "Veg Manchurian Rice (Half) | व्हेज मंचूरियन राईस (हाफ)", "price": "130/-", "desc": "Rice with veg manchurian balls", "tags": ["Veg", "Rice"], "img": "img/veg_manchu_rice.jpeg"},
+  {"id": 79, "cat": "Veg Rice", "name": "Veg Manchurian Rice (Full) | व्हेज मंचूरियन राईस (फुल)", "price": "180/-", "desc": "Rice with veg manchurian balls", "tags": ["Veg", "Rice"], "img": "img/veg_manchu_rice.jpeg"},
+  {"id": 80, "cat": "Veg Rice", "name": "Veg Triple Rice (Half) | व्हेज ट्रिपल राईस (हाफ)", "price": "130/-", "desc": "Triple layer veg rice and gravy", "tags": ["Veg", "Special"], "img": "img/veg_triple_rice.jpeg"},
+  {"id": 81, "cat": "Veg Rice", "name": "Veg Triple Rice (Full) | व्हेज ट्रिपल राईस (फुल)", "price": "180/-", "desc": "Triple layer veg rice and gravy", "tags": ["Veg", "Special"], "img": "img/veg_triple_rice.jpeg"},
+  {"id": 82, "cat": "Veg Rice", "name": "Singapore Rice (Full) | सिंगापूर राईस (फुल)", "price": "180/-", "desc": "Aromatic singapore style veg rice", "tags": ["Veg", "Rice"], "img": "img/veg_singapore_rice.jpeg"},
+  {"id": 83, "cat": "Veg Rice", "name": "Hong Kong Rice (Full) | हाँगकाँग राईस (फुल)", "price": "180/-", "desc": "Hong Kong style veg fried rice", "tags": ["Veg", "Rice"], "img": "img/veg_hong_kong_rice.jpeg"},
+  {"id": 84, "cat": "Veg Rice", "name": "Paneer Rice (Full) | पनीर राईस (फुल)", "price": "180/-", "desc": "Fried rice with soft paneer cubes", "tags": ["Veg", "Rice"], "img": "img/paneer_rice.jpeg"},
+  
+  {"id": 85, "cat": "Veg Soup", "name": "Veg Soup (Half) | व्हेज सूप (हाफ)", "price": "50/-", "desc": "Hot vegetable soup", "tags": ["Veg", "Soup"], "img": "img/veg_soup.jpeg"},
+  {"id": 86, "cat": "Veg Soup", "name": "Veg Soup (Full) | व्हेज सूप (फुल)", "price": "90/-", "desc": "Hot vegetable soup", "tags": ["Veg", "Soup"], "img": "img/veg_soup.jpeg"},
+  {"id": 87, "cat": "Veg Soup", "name": "Veg Manchaow Soup (Half) | व्हेज मंचाव सूप (हाफ)", "price": "50/-", "desc": "Veg manchaow soup with fried noodles", "tags": ["Veg", "Soup"], "img": "img/veg_manchaow_soup.jpeg"},
+  {"id": 88, "cat": "Veg Soup", "name": "Veg Manchaow Soup (Full) | व्हेज मंचाव सूप (फुल)", "price": "90/-", "desc": "Veg manchaow soup with fried noodles", "tags": ["Veg", "Soup"], "img": "img/veg_manchaow_soup.jpeg"},
+  {"id": 89, "cat": "Veg Soup", "name": "Hot & Sour Soup (Half) | हॉट अँड सावर सूप (हाफ)", "price": "60/-", "desc": "Spicy and tangy vegetable soup", "tags": ["Veg", "Soup"], "img": "img/veg_hot_sour_soup.jpeg"},
+  {"id": 90, "cat": "Veg Soup", "name": "Hot & Sour Soup (Full) | हॉट अँड सावर सूप (फुल)", "price": "110/-", "desc": "Spicy and tangy vegetable soup", "tags": ["Veg", "Soup"], "img": "img/veg_hot_sour_soup.jpeg"},
+  {"id": 91, "cat": "Veg Soup", "name": "Clear Soup (Half) | क्लिअर सूप (हाफ)", "price": "60/-", "desc": "Clear vegetable broth", "tags": ["Veg", "Soup"], "img": "img/veg_clear_soup.jpeg"},
+  {"id": 92, "cat": "Veg Soup", "name": "Clear Soup (Full) | क्लिअर सूप (फुल)", "price": "110/-", "desc": "Clear vegetable broth", "tags": ["Veg", "Soup"], "img": "img/veg_clear_soup.jpeg"},
+  {"id": 93, "cat": "Veg Soup", "name": "Special Soup (Half) | स्पेशल सूप (हाफ)", "price": "60/-", "desc": "Chef special vegetable soup", "tags": ["Veg", "Soup"], "img": "img/veg_special_soup.jpeg"},
+  {"id": 94, "cat": "Veg Soup", "name": "Special Soup (Full) | स्पेशल सूप (फुल)", "price": "120/-", "desc": "Chef special vegetable soup", "tags": ["Veg", "Soup"], "img": "img/veg_special_soup.jpeg"},
+  {"id": 95, "cat": "Veg Soup", "name": "Tomato Soup (Half) | टोमॅटो सूप (हाफ)", "price": "60/-", "desc": "Rich creamy tomato soup", "tags": ["Veg", "Soup"], "img": "img/veg_tomato_soup.jpeg"},
+  {"id": 96, "cat": "Veg Soup", "name": "Tomato Soup (Full) | टोमॅटो सूप (फुल)", "price": "120/-", "desc": "Rich creamy tomato soup", "tags": ["Veg", "Soup"], "img": "img/veg_tomato_soup.jpeg"},
+  
+  {"id": 97, "cat": "Veg Noodles", "name": "Veg Noodles (Half) | व्हेज नूडल्स (हाफ)", "price": "90/-", "desc": "Stir-fried vegetable noodles", "tags": ["Veg", "Noodles"], "img": "img/veg_noodles.jpeg"},
+  {"id": 98, "cat": "Veg Noodles", "name": "Veg Noodles (Full) | व्हेज नूडल्स (फुल)", "price": "150/-", "desc": "Stir-fried vegetable noodles", "tags": ["Veg", "Noodles"], "img": "img/veg_noodles.jpeg"},
+  {"id": 99, "cat": "Veg Noodles", "name": "Veg Schezwan Noodles (Half) | व्हेज शेजवान नूडल्स (हाफ)", "price": "100/-", "desc": "Spicy schezwan vegetable noodles", "tags": ["Veg", "Noodles"], "img": "img/veg_schezwan_noodles.jpeg"},
+  {"id": 100, "cat": "Veg Noodles", "name": "Veg Schezwan Noodles (Full) | व्हेज शेजवान नूडल्स (फुल)", "price": "160/-", "desc": "Spicy schezwan vegetable noodles", "tags": ["Veg", "Noodles"], "img": "img/veg_schezwan_noodles.jpeg"},
+  {"id": 101, "cat": "Veg Noodles", "name": "Veg Manchurian Noodles (Half) | व्हेज मंचूरियन नूडल्स (हाफ)", "price": "130/-", "desc": "Vegetable noodles with manchurian sauce", "tags": ["Veg", "Noodles"], "img": "img/veg_manchu_noodles.jpeg"},
+  {"id": 102, "cat": "Veg Noodles", "name": "Veg Manchurian Noodles (Full) | व्हेज मंचूरियन नूडल्स (फुल)", "price": "180/-", "desc": "Vegetable noodles with manchurian sauce", "tags": ["Veg", "Noodles"], "img": "img/veg_manchu_noodles.jpeg"},
+  {"id": 103, "cat": "Veg Noodles", "name": "Veg Triple Noodles (Half) | व्हेज ट्रिपल नूडल्स (हाफ)", "price": "130/-", "desc": "Triple layer of veg noodles and rice", "tags": ["Veg", "Special"], "img": "img/veg_triple_noodles.jpeg"},
+  {"id": 104, "cat": "Veg Noodles", "name": "Veg Triple Noodles (Full) | व्हेज ट्रिपल नूडल्स (फुल)", "price": "180/-", "desc": "Triple layer of veg noodles and rice", "tags": ["Veg", "Special"], "img": "img/veg_triple_noodles.jpeg"},
+  {"id": 105, "cat": "Veg Noodles", "name": "Veg Hong Kong Noodles (Full) | व्हेज हाँगकाँग नूडल्स (फुल)", "price": "180/-", "desc": "Hong Kong style veg noodles", "tags": ["Veg", "Noodles"], "img": "img/veg_hong_kong_noodles.jpeg"},
+  {"id": 106, "cat": "Veg Noodles", "name": "Veg Singapore Noodles (Full) | व्हेज सिंगापूर नूडल्स (फुल)", "price": "180/-", "desc": "Singapore style veg stir-fried noodles", "tags": ["Veg", "Noodles"], "img": "img/veg_singapore_noodles.jpeg"},
+  
+  {"id": 107, "cat": "Veg Starter", "name": "Veg Manchurian (Half) | व्हेज मंचूरियन (हाफ)", "price": "100/-", "desc": "Vegetable balls in chinese sauce", "tags": ["Veg", "Starter"], "img": "img/veg_manchu_dry.jpeg"},
+  {"id": 108, "cat": "Veg Starter", "name": "Veg Manchurian (Full) | व्हेज मंचूरियन (फुल)", "price": "160/-", "desc": "Vegetable balls in chinese sauce", "tags": ["Veg", "Starter"], "img": "img/veg_manchu_dry.jpeg"},
+  {"id": 109, "cat": "Veg Starter", "name": "Veg Manchurian Gravy (Half) | व्हेज मंचूरियन ग्रेव्ही (हाफ)", "price": "120/-", "desc": "Veg manchurian in thick gravy", "tags": ["Veg", "Starter"], "img": "img/veg_manchu_gravy.jpeg"},
+  {"id": 110, "cat": "Veg Starter", "name": "Veg Manchurian Gravy (Full) | व्हेज मंचूरियन ग्रेव्ही (फुल)", "price": "170/-", "desc": "Veg manchurian in thick gravy", "tags": ["Veg", "Starter"], "img": "img/veg_manchu_gravy.jpeg"},
+  {"id": 111, "cat": "Veg Starter", "name": "Veg Bhel (Half) | व्हेज भेळ (हाफ)", "price": "90/-", "desc": "Crispy noodles with veg and sauce", "tags": ["Veg", "Snacks"], "img": "img/veg_bhel.jpeg"},
+  {"id": 112, "cat": "Veg Starter", "name": "Veg Bhel (Full) | व्हेज भेळ (फुल)", "price": "160/-", "desc": "Crispy noodles with veg and sauce", "tags": ["Veg", "Snacks"], "img": "img/veg_bhel.jpeg"},
+  {"id": 113, "cat": "Veg Starter", "name": "Paneer Chilly Dry (Full) | पनीर चिली ड्राय (फुल)", "price": "190/-", "desc": "Spicy dry paneer chilly", "tags": ["Veg", "Starter"], "img": "img/paneer_chilly_dry.jpeg"},
+  {"id": 114, "cat": "Veg Starter", "name": "Paneer 65 (Full) | पनीर ६५ (फुल)", "price": "200/-", "desc": "Crispy fried spiced paneer", "tags": ["Veg", "Starter"], "img": "img/paneer_65.jpeg"},
+  {"id": 115, "cat": "Veg Starter", "name": "Paneer Chilly Gravy (Full) | पनीर चिली ग्रेव्ही (फुल)", "price": "200/-", "desc": "Paneer chilly with chinese gravy", "tags": ["Veg", "Starter"], "img": "img/paneer_chilly_gravy.jpeg"},
+  {"id": 116, "cat": "Veg Starter", "name": "Veg Crispy (Full) | व्हेज क्रिस्पी (फुल)", "price": "170/-", "desc": "Extra crispy fried vegetables", "tags": ["Veg", "Starter"], "img": "img/veg_crispy.jpeg"},
+  {"id": 117, "cat": "Veg Starter", "name": "Veg Soyabin Chilly (Full) | व्हेज सोयाबीन चिली (फुल)", "price": "170/-", "desc": "Crispy soya chunks in chilly sauce", "tags": ["Veg", "Starter"], "img": "img/veg_soya_chilly.jpeg"},
 
 
 
